@@ -12,4 +12,4 @@ Nice to meet you! I'm a fourth-year undergraudate student from [Tsinghua Univers
 
 More info
 ======
-Please refer to my [CV](../assets/YanjieTong_CV.pdf) (Nov. 17, 2023).
+Please refer to my [CV](../assets/YanjieTong_CV.pdf) (Nov. 17, 2023). Feel free to contact me via social media or e-mail!
