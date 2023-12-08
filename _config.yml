@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Yanjie Tong"
-  avatar           : "IMG_10995.JPG"
+  avatar           : "/IMG_10995.JPG"
   bio              : "Developing data-driven methods for science and engineering"
   location         : "Shanghai, China"
   employer         :
