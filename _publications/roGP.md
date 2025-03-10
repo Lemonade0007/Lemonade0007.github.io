@@ -6,7 +6,6 @@ excerpt: ''
 date: 2025-03-04
 venue: 'Computer Methods in Applied Mechanics and Engineering'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0045782525001665'
-citation: ''
 ---
 The present work
 develops a novel surrogate model, region-optimal Gaussian process (roGP), to accurately emulate
@@ -31,4 +30,4 @@ high accuracy and efficiency.
 
 [Download paper here](https://www.sciencedirect.com/science/article/pii/S0045782525001665)
 
-![image](assets/roGP.jpg)
+![image](/assets/roGP.jpg)
