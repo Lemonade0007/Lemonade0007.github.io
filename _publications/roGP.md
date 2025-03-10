@@ -7,6 +7,8 @@ date: 2025-03-04
 venue: 'Computer Methods in Applied Mechanics and Engineering'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0045782525001665'
 ---
+*Authors: Mingshuo Zhou, Ruiye Zuo, Chih-Li Sung,* ***Yanjie Tong,*** *Xingjian Wang*
+
 The present work
 develops a novel surrogate model, region-optimal Gaussian process (roGP), to accurately emulate
 cold-flow and combustion fields in a significantly short time period. The model leverages an
