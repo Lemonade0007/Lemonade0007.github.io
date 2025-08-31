@@ -30,6 +30,6 @@ time, up to eight orders of magnitude faster than numerical simulations. The dev
 model can be implemented to emulate a range of high-dimensional engineering applications with
 high accuracy and efficiency.
 
-[Download paper here](https://www.sciencedirect.com/science/article/pii/S0045782525001665)
+Download paper [here](https://www.sciencedirect.com/science/article/pii/S0045782525001665)
 
 ![image](/assets/roGP.jpg)
