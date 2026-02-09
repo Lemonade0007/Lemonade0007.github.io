@@ -15,4 +15,4 @@ Download paper [here](https://arxiv.org/abs/2602.04201)
 
 # Code [here](https://github.com/Lemonade0007/parametric-rom-tensor-unstructured)
 
-![image](/assets/STRIDE(1).png)
+![image](/assets/STRIDE(1).pdf)
