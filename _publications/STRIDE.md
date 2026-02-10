@@ -13,4 +13,4 @@ Reconstructing high-dimensional spatiotemporal fields from sparse point-sensor m
 
 Download paper [here](https://arxiv.org/abs/2602.04201)
 
-![image](/assets/STRIDE(1).pdf)
+![image](/assets/STRIDE(1).png)
