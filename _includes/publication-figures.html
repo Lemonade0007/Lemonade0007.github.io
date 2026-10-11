@@ -1,0 +1,8 @@
+{% for figure in include.paper.figures %}
+  <figure class="publication-figure">
+    <a href="{{ figure.source | relative_url }}" aria-label="Open figure: {{ figure.caption | escape }}">
+      <img src="{{ figure.image | relative_url }}" alt="{{ figure.caption | escape }}" loading="lazy">
+    </a>
+    <figcaption>{{ figure.caption }} <a href="{{ figure.source | relative_url }}">Open figure <span aria-hidden="true">↗</span></a></figcaption>
+  </figure>
+{% endfor %}

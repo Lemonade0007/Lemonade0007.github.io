@@ -6,8 +6,14 @@ excerpt: ''
 date: 2025-03-04
 venue: 'Computer Methods in Applied Mechanics and Engineering'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0045782525001665'
+authors: 'Mingshuo Zhou, Ruiye Zuo, Chih-Li Sung, **Yanjie Tong**, Xingjian Wang'
+summary: 'A region-optimal Gaussian process surrogate that partitions physical fields to accelerate cold-flow and combustion emulation.'
+figures:
+  - image: /assets/roGP.jpg
+    source: /assets/roGP.jpg
+    caption: 'Region-optimal Gaussian process surrogate model for cold-flow and combustion emulation.'
 ---
-*Authors: Mingshuo Zhou, Ruiye Zuo, Chih-Li Sung,* ***Yanjie Tong,*** *Xingjian Wang*
+*Authors:* {{ page.authors | markdownify | remove: '<p>' | remove: '</p>' }}
 
 The present work
 develops a novel surrogate model, region-optimal Gaussian process (roGP), to accurately emulate
@@ -29,7 +35,3 @@ due to their increased complexity. roGP achieves substantial acceleration in pre
 time, up to eight orders of magnitude faster than numerical simulations. The developed surrogate
 model can be implemented to emulate a range of high-dimensional engineering applications with
 high accuracy and efficiency.
-
-Download paper [here](https://www.sciencedirect.com/science/article/pii/S0045782525001665)
-
-![image](/assets/roGP.jpg)

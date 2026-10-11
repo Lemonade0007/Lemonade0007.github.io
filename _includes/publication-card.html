@@ -1,0 +1,21 @@
+{% assign paper = include.paper %}
+{% assign cover = paper.figures | first %}
+<article class="publication-card">
+  {% if cover %}
+    <a class="publication-card__cover" href="{{ paper.url | relative_url }}" aria-label="Read about {{ paper.title | escape }}">
+      <img src="{{ cover.image | relative_url }}" alt="{{ cover.caption | escape }}" loading="lazy">
+    </a>
+  {% endif %}
+  <div class="publication-card__body">
+    <p class="publication-card__meta"><span>{{ paper.venue }}</span><time datetime="{{ paper.date | date: '%Y-%m-%d' }}">{{ paper.date | date: '%Y' }}</time></p>
+    <h2 class="publication-card__title"><a href="{{ paper.url | relative_url }}">{{ paper.title }}</a></h2>
+    <p class="publication-card__authors">{{ paper.authors | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    <p class="publication-card__summary">{{ paper.summary }}</p>
+    <div class="publication-card__links">
+      <a href="{{ paper.url | relative_url }}">Details <span aria-hidden="true">↗</span></a>
+      <a href="{{ paper.paperurl }}">Paper <span aria-hidden="true">↗</span></a>
+      {% if paper.codeurl %}<a href="{{ paper.codeurl }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if cover %}<a href="{{ cover.source | relative_url }}">Figure <span aria-hidden="true">↗</span></a>{% endif %}
+    </div>
+  </div>
+</article>

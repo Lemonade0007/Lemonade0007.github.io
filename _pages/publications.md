@@ -5,12 +5,17 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+<div class="publication-intro">
+  <p class="eyebrow">Research / Publications</p>
+  <p>From sparse observations to continuous fields. Explore my work on scientific machine learning, surrogate models, and digital twins.</p>
+  {% if site.author.googlescholar %}
+    <a class="action-link" href="{{ site.author.googlescholar }}">Google Scholar <span aria-hidden="true">↗</span></a>
+  {% endif %}
+</div>
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="publication-list">
+  {% assign papers = site.publications | sort: 'date' | reverse %}
+  {% for post in papers %}
+    {% include publication-card.html paper=post %}
+  {% endfor %}
+</div>
