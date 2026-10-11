@@ -4,7 +4,7 @@ main:
     url: /publications/
 
   - title: "CV"
-    url: /assets/Resume_YanjieTong(1).pdf
+    url: /assets/Resume_YanjieTong(3).pdf
 
   # - title: "Talks"
   #   url: /talks/    
@@ -15,8 +15,8 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  # - title: "Blog Posts"
+  #   url: /year-archive/
     
   # - title: "Guide"
   #   url: /markdown/
